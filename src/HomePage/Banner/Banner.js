@@ -7,7 +7,7 @@ class Banner extends Component {
     <div>
         <div className="firstSection position-relative d-flex justify-content-between align-items-center">
             <div className="w-50 align-self-end">
-                <img src={jeevan} className="w-75 sliderImage" />
+                <img src={jeevan} className="w-75 sliderImage" alt="Jeevan Raj"/>
             </div>
             <div className="w-50">
                 <div className="banner">
@@ -30,7 +30,7 @@ class Banner extends Component {
                             </p>
                         </div>
                         <div className="pt-4 viewButtonAnimation">
-                            <a href="#" className="btn arrowButton" for="animation3">
+                            <div  className="btn arrowButton" for="animation3">
                                 <svg width="180" height="50">
                                     <defs>
                                         <linearGradient id="grad1">
@@ -44,7 +44,7 @@ class Banner extends Component {
                                 <div className="d-flex viewProfileDiv">
                                     <div className="viewProfile">View Profile</div>
                                 </div>
-                            </a>
+                            </div>
                         </div>
                     </div>
                 </div>
