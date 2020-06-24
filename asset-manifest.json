@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/jeevan-portfolio-react/static/css/main.5f361e03.chunk.css",
+    "main.js": "/jeevan-portfolio-react/static/js/main.74af1dd8.chunk.js",
+    "main.js.map": "/jeevan-portfolio-react/static/js/main.74af1dd8.chunk.js.map",
+    "runtime-main.js": "/jeevan-portfolio-react/static/js/runtime-main.9bcfdca2.js",
+    "runtime-main.js.map": "/jeevan-portfolio-react/static/js/runtime-main.9bcfdca2.js.map",
+    "static/js/2.ee4b337f.chunk.js": "/jeevan-portfolio-react/static/js/2.ee4b337f.chunk.js",
+    "static/js/2.ee4b337f.chunk.js.map": "/jeevan-portfolio-react/static/js/2.ee4b337f.chunk.js.map",
+    "index.html": "/jeevan-portfolio-react/index.html",
+    "precache-manifest.687b9d56317a0baa143aab7b0727e1f9.js": "/jeevan-portfolio-react/precache-manifest.687b9d56317a0baa143aab7b0727e1f9.js",
+    "service-worker.js": "/jeevan-portfolio-react/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/jeevan-portfolio-react/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.ee4b337f.chunk.js.LICENSE.txt": "/jeevan-portfolio-react/static/js/2.ee4b337f.chunk.js.LICENSE.txt",
+    "static/media/jeevan.png": "/jeevan-portfolio-react/static/media/jeevan.85b9acd7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9bcfdca2.js",
+    "static/js/2.ee4b337f.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.74af1dd8.chunk.js"
+  ]
+}
