@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import mobileicon from '../../images/mobile-icon.svg';
-import mobile from '../../images/laptop.png';
+import mobile from '../../images/mobile.png';
 
 class MobileDesign extends Component {
     render() {
@@ -11,12 +11,12 @@ class MobileDesign extends Component {
                         <div className="mobileSection commonSection">
                             <div className="row py-4 px-4">
                                 <div className="col-lg-6">
-                                    <img src={mobileicon} className="w-100 mobileMargin" alt="Mobile Icon" />
+                                    <img src={mobile} className="w-100 mobileMargin" alt="Mobile Design" />
                                 </div>
                                 <div className="col-lg-6">
                                     <div>
                                         <div>
-                                            <img src={mobile} alt="Mobile Design" />
+                                            <img src={mobileicon} alt="Mobile Icon" />
                                         </div>
                                         <div className="pt-4">
                                             <h2 className="mb-0 lightBlackColor boldFont-Play lsp-1">Mobile Design</h2>
