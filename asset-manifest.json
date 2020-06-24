@@ -1,28 +1,29 @@
 {
   "files": {
     "main.css": "/jeevan-portfolio-react/static/css/main.5f361e03.chunk.css",
-    "main.js": "/jeevan-portfolio-react/static/js/main.df4e8eb1.chunk.js",
-    "main.js.map": "/jeevan-portfolio-react/static/js/main.df4e8eb1.chunk.js.map",
+    "main.js": "/jeevan-portfolio-react/static/js/main.f76e13bb.chunk.js",
+    "main.js.map": "/jeevan-portfolio-react/static/js/main.f76e13bb.chunk.js.map",
     "runtime-main.js": "/jeevan-portfolio-react/static/js/runtime-main.9bcfdca2.js",
     "runtime-main.js.map": "/jeevan-portfolio-react/static/js/runtime-main.9bcfdca2.js.map",
-    "static/js/2.7adc111f.chunk.js": "/jeevan-portfolio-react/static/js/2.7adc111f.chunk.js",
-    "static/js/2.7adc111f.chunk.js.map": "/jeevan-portfolio-react/static/js/2.7adc111f.chunk.js.map",
+    "static/js/2.acc0ad34.chunk.js": "/jeevan-portfolio-react/static/js/2.acc0ad34.chunk.js",
+    "static/js/2.acc0ad34.chunk.js.map": "/jeevan-portfolio-react/static/js/2.acc0ad34.chunk.js.map",
     "index.html": "/jeevan-portfolio-react/index.html",
-    "precache-manifest.a3ea136939b1b6700f90c9f47b29cef9.js": "/jeevan-portfolio-react/precache-manifest.a3ea136939b1b6700f90c9f47b29cef9.js",
+    "precache-manifest.fe9549ba7a0eaa5f593e5de3753c55c8.js": "/jeevan-portfolio-react/precache-manifest.fe9549ba7a0eaa5f593e5de3753c55c8.js",
     "service-worker.js": "/jeevan-portfolio-react/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/jeevan-portfolio-react/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.7adc111f.chunk.js.LICENSE.txt": "/jeevan-portfolio-react/static/js/2.7adc111f.chunk.js.LICENSE.txt",
+    "static/js/2.acc0ad34.chunk.js.LICENSE.txt": "/jeevan-portfolio-react/static/js/2.acc0ad34.chunk.js.LICENSE.txt",
     "static/media/graphic-icon.svg": "/jeevan-portfolio-react/static/media/graphic-icon.fe50c190.svg",
     "static/media/graphic.png": "/jeevan-portfolio-react/static/media/graphic.99253204.png",
     "static/media/jeevan.png": "/jeevan-portfolio-react/static/media/jeevan.85b9acd7.png",
     "static/media/laptop.png": "/jeevan-portfolio-react/static/media/laptop.2e0220f7.png",
     "static/media/mobile-icon.svg": "/jeevan-portfolio-react/static/media/mobile-icon.008dc03d.svg",
+    "static/media/mobile.png": "/jeevan-portfolio-react/static/media/mobile.d2be2f93.png",
     "static/media/website-icon.svg": "/jeevan-portfolio-react/static/media/website-icon.d6ea0ec1.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.9bcfdca2.js",
-    "static/js/2.7adc111f.chunk.js",
+    "static/js/2.acc0ad34.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.df4e8eb1.chunk.js"
+    "static/js/main.f76e13bb.chunk.js"
   ]
 }

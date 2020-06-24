@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9c49696f05c22266ec6833a64c474c5b",
+    "revision": "20afc81e947817ae4491af698cb90c93",
     "url": "/jeevan-portfolio-react/index.html"
   },
   {
-    "revision": "300eca94277b8809b20e",
+    "revision": "f9fe4a308afec5b6be84",
     "url": "/jeevan-portfolio-react/static/css/main.5f361e03.chunk.css"
   },
   {
-    "revision": "26389a3b1641b66df41d",
-    "url": "/jeevan-portfolio-react/static/js/2.7adc111f.chunk.js"
+    "revision": "2467b8d5cb4579c985a2",
+    "url": "/jeevan-portfolio-react/static/js/2.acc0ad34.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/jeevan-portfolio-react/static/js/2.7adc111f.chunk.js.LICENSE.txt"
+    "url": "/jeevan-portfolio-react/static/js/2.acc0ad34.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "300eca94277b8809b20e",
-    "url": "/jeevan-portfolio-react/static/js/main.df4e8eb1.chunk.js"
+    "revision": "f9fe4a308afec5b6be84",
+    "url": "/jeevan-portfolio-react/static/js/main.f76e13bb.chunk.js"
   },
   {
     "revision": "7169e2bae01734aeaa59",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "008dc03d64ce449a46c99f73f95c45f0",
     "url": "/jeevan-portfolio-react/static/media/mobile-icon.008dc03d.svg"
+  },
+  {
+    "revision": "d2be2f931ae0ae219f12df8cb0dba12f",
+    "url": "/jeevan-portfolio-react/static/media/mobile.d2be2f93.png"
   },
   {
     "revision": "d6ea0ec179fde39170b2882b7699374a",
