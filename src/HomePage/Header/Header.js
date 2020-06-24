@@ -1,5 +1,6 @@
 import React , { Component } from 'react';
 import { ListGroup , ListGroupItem , Button } from 'reactstrap';
+import $ from 'jquery';
 
 class Header extends Component {
     componentDidMount(){
