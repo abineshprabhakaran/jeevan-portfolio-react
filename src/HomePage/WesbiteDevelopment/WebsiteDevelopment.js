@@ -17,7 +17,7 @@ class WebsiteDevelopment extends Component {
             y += (lFollowY - y) * friction;
 
             $wrap.css({
-                'transform': 'translate(-50%, -50%) perspective(600px) rotateY(' + -x + 'deg) rotateX(' + y + 'deg)'
+                'transform': 'translate(0,0) perspective(600px) rotateY(' + -x + 'deg) rotateX(' + y + 'deg)'
             });
             window.requestAnimationFrame(animate);
         }
