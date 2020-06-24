@@ -2,6 +2,15 @@ import React , { Component } from 'react';
 import { ListGroup , ListGroupItem , Button } from 'reactstrap';
 
 class Header extends Component {
+    componentDidMount(){
+        $(window).on("scroll", function () {
+            if ($(window).scrollTop() > 50) {
+                $(".header").addClass("activeHeader");
+            } else {
+                $(".header").removeClass("activeHeader");
+            }
+        });
+    }
   render() {
     return (
     <div>
