@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/jeevan-portfolio-react/static/css/main.5f361e03.chunk.css",
-    "main.js": "/jeevan-portfolio-react/static/js/main.d74cbebc.chunk.js",
-    "main.js.map": "/jeevan-portfolio-react/static/js/main.d74cbebc.chunk.js.map",
+    "main.js": "/jeevan-portfolio-react/static/js/main.cfe2e47f.chunk.js",
+    "main.js.map": "/jeevan-portfolio-react/static/js/main.cfe2e47f.chunk.js.map",
     "runtime-main.js": "/jeevan-portfolio-react/static/js/runtime-main.9bcfdca2.js",
     "runtime-main.js.map": "/jeevan-portfolio-react/static/js/runtime-main.9bcfdca2.js.map",
     "static/js/2.32ff52c5.chunk.js": "/jeevan-portfolio-react/static/js/2.32ff52c5.chunk.js",
     "static/js/2.32ff52c5.chunk.js.map": "/jeevan-portfolio-react/static/js/2.32ff52c5.chunk.js.map",
     "index.html": "/jeevan-portfolio-react/index.html",
-    "precache-manifest.3e2f7c3f212b6cfa79fa4e6ebc6ca08c.js": "/jeevan-portfolio-react/precache-manifest.3e2f7c3f212b6cfa79fa4e6ebc6ca08c.js",
+    "precache-manifest.f570601ad1ae6f83497f7b8da78614a1.js": "/jeevan-portfolio-react/precache-manifest.f570601ad1ae6f83497f7b8da78614a1.js",
     "service-worker.js": "/jeevan-portfolio-react/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/jeevan-portfolio-react/static/css/main.5f361e03.chunk.css.map",
     "static/js/2.32ff52c5.chunk.js.LICENSE.txt": "/jeevan-portfolio-react/static/js/2.32ff52c5.chunk.js.LICENSE.txt",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.9bcfdca2.js",
     "static/js/2.32ff52c5.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.d74cbebc.chunk.js"
+    "static/js/main.cfe2e47f.chunk.js"
   ]
 }
