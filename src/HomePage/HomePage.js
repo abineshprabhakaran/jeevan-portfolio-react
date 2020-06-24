@@ -21,7 +21,7 @@ class HomePage extends Component {
         y += (lFollowY - y) * friction;
 
         $wrap.css({
-            'transform': 'translate(0,0) perspective(5000px) rotateY(' + -x + 'deg) rotateX(' + y + 'deg)'
+            'transform': 'translate(0,0) perspective(1500px) rotateY(' + -x + 'deg) rotateX(' + y + 'deg)'
         });
         window.requestAnimationFrame(animate);
     }
