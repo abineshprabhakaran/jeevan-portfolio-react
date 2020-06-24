@@ -33,8 +33,8 @@ class Header extends Component {
             <div>
                 <nav className="navbar align-items-center navbar-expand-lg p-0 fixed-top header py-3">
                     <div className="collapse navbar-collapse jusEnd" id="navbarSupportedContent">
-                        <div class="logoContainer px-4">
-                            <img src={jrlogo} class="logo" />
+                        <div className="logoContainer px-4">
+                            <img src={jrlogo} className="logo" />
                         </div>
                         <ListGroup className="navbar-nav flex-row">
                             <ListGroupItem className="nav-item  px-3">

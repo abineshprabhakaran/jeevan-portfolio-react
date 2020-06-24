@@ -30,12 +30,12 @@ class Banner extends Component {
                             </p>
                         </div>
                         <div className="pt-4 viewButtonAnimation">
-                            <div  className="btn arrowButton" for="animation3">
+                            <div  className="btn arrowButton" htmlFor="animation3">
                                 <svg width="180" height="50">
                                     <defs>
                                         <linearGradient id="grad1">
-                                            <stop offset="0%" stop-color="#222222" />
-                                            <stop offset="100%" stop-color="#222222" />
+                                            <stop offset="0%" stopColor="#222222" />
+                                            <stop offset="100%" stopColor="#222222" />
                                         </linearGradient>
                                     </defs>
                                     <rect x="5" y="5" rx="20" fill="none" stroke="url(#grad1)" width="161" height="40">
