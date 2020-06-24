@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import websiteicon from '../../images/website-icon.svg';
 import laptop from '../../images/laptop.png';
+import $ from 'jquery';
 
 class WebsiteDevelopment extends Component {
     componentDidMount() {
