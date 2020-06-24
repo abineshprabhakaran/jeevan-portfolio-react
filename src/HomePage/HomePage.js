@@ -3,6 +3,8 @@ import Header from './Header/Header'
 import Banner from './Banner/Banner';
 import { Container } from 'reactstrap';
 import WebsiteDevelopment from './WesbiteDevelopment/WebsiteDevelopment';
+import MobileDesign from './MobileDesign/MobileDesign';
+import GraphicDesign from './GraphicDesign/GraphicDesign';
 
 class HomePage extends Component {
   render() {
@@ -12,6 +14,8 @@ class HomePage extends Component {
         <Header />
         <Banner />
         <WebsiteDevelopment />
+        <MobileDesign />
+        <GraphicDesign />
         </Container>
     </div>
     );

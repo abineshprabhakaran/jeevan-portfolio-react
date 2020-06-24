@@ -1,23 +1,25 @@
 import React, { Component } from 'react';
-import websiteicon from '../../images/website-icon.svg';
-import laptop from '../../images/laptop.png';
+import mobileicon from '../../images/mobile-icon.svg';
+import mobile from '../../images/laptop.png';
 
-class WebsiteDevelopment extends Component {
+class MobileDesign extends Component {
     render() {
         return (
             <div>
                 <div className="sectionTop">
-
                     <div className="px-4">
-                        <div className="websiteSection commonSection">
+                        <div className="mobileSection commonSection">
                             <div className="row py-4 px-4">
+                                <div className="col-lg-6">
+                                    <img src={mobileicon} className="w-100 mobileMargin" alt="Mobile Icon" />
+                                </div>
                                 <div className="col-lg-6">
                                     <div>
                                         <div>
-                                            <img src={websiteicon} alt="Website Icon" />
+                                            <img src={mobile} alt="Mobile Design" />
                                         </div>
                                         <div className="pt-4">
-                                            <h2 className="mb-0 lightBlackColor boldFont-Play lsp-1">Website Design</h2>
+                                            <h2 className="mb-0 lightBlackColor boldFont-Play lsp-1">Mobile Design</h2>
                                             <p className="lightGreyColor py-4 lsp-05">
                                                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
                                                 tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
@@ -30,9 +32,7 @@ class WebsiteDevelopment extends Component {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-6">
-                                    <img src={laptop} className="w-100 laptopMargin" alt="Website Development" />
-                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -43,4 +43,4 @@ class WebsiteDevelopment extends Component {
 }
 
 
-export default WebsiteDevelopment;
+export default MobileDesign;
