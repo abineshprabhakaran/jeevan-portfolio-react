@@ -596,3 +596,20 @@ a:focus{
   left: 0;
   z-index: -1;
 }
+
+.cursor--small {
+	width: 20px;
+	height: 20px;
+	left: -10px;
+	top: -10px;
+	border-radius: 50%;
+	z-index: 99;
+	background: black;
+}
+
+.cursor--canvas {
+  width: 100vw;
+  position: fixed;
+	height: 100vh;
+	z-index: 100;
+}
