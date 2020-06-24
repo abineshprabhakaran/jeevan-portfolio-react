@@ -21,7 +21,7 @@ class HomePage extends Component {
         y += (lFollowY - y) * friction;
 
         $wrap.css({
-            'transform': 'translate(0,0) perspective(600px) rotateY(' + -x + 'deg) rotateX(' + y + 'deg)'
+            'transform': 'translate(0,0) perspective(50px) rotateY(' + -x + 'deg) rotateX(' + y + 'deg)'
         });
         window.requestAnimationFrame(animate);
     }
@@ -30,7 +30,7 @@ class HomePage extends Component {
         var lMouseX = Math.max(-100, Math.min(100, $(window).width() / 2 - e.clientX));
         var lMouseY = Math.max(-100, Math.min(100, $(window).height() / 2 - e.clientY));
         lFollowX = (0.5 * lMouseX) / 100;
-        lFollowY = (0.2 * lMouseY) / 100;
+        lFollowY = (0 * lMouseY) / 100;
     });
 
     animate();
