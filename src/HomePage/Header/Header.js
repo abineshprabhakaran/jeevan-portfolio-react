@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { ListGroup, ListGroupItem, Button } from 'reactstrap';
+import {Link} from 'react-router-dom';
 import $ from 'jquery';
 import jrlogo from '../../images/favicon.png';
 
@@ -28,6 +29,7 @@ class Header extends Component {
         });
 
     }
+    
     render() {
         return (
             <div>
@@ -38,10 +40,14 @@ class Header extends Component {
                         </div>
                         <ListGroup className="navbar-nav flex-row">
                             <ListGroupItem className="nav-item  px-3">
-                                <Button className="nav-link px-2 py-1 text-uppercase position-relative activeMenu menu ">Home</Button>
+                                <Button className="nav-link px-2 py-1 text-uppercase position-relative menu">
+                                <Link to="/" className="navLink">Home </Link>
+                                </Button>
                             </ListGroupItem>
                             <ListGroupItem className="nav-item  px-3">
-                                <Button className="nav-link px-2 py-1 text-uppercase position-relative greyColor menu ">About</Button>
+                                <Button className="nav-link px-2 py-1 text-uppercase position-relative greyColor menu ">
+                                <Link to="/about" className="navLink">About </Link>
+                                </Button>
                             </ListGroupItem>
                             <ListGroupItem className="nav-item  px-3">
                                 <Button className="nav-link px- py-1 text-uppercase position-relative greyColor menu ">Project</Button>
