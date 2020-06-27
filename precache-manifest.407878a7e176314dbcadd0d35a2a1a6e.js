@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fc5667b0d105307cd7dc9f9fd2d39b24",
+    "revision": "0b1bdb0d07685262861f0026c1567660",
     "url": "/jeevan-portfolio-react/index.html"
   },
   {
-    "revision": "c34bee17026fa2c06257",
+    "revision": "49935074956474b37e43",
     "url": "/jeevan-portfolio-react/static/css/main.5f361e03.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jeevan-portfolio-react/static/js/2.fbb310f2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c34bee17026fa2c06257",
-    "url": "/jeevan-portfolio-react/static/js/main.4e41bac2.chunk.js"
+    "revision": "49935074956474b37e43",
+    "url": "/jeevan-portfolio-react/static/js/main.5ebcee6c.chunk.js"
   },
   {
     "revision": "7169e2bae01734aeaa59",
