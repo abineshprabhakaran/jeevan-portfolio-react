@@ -30,7 +30,7 @@ class HomePage extends Component {
       var lMouseX = Math.max(-100, Math.min(100, $(window).width() / 2 - e.clientX));
       var lMouseY = Math.max(-100, Math.min(100, $(window).height() / 2 - e.clientY));
       lFollowX = (1 * lMouseX) / 100; 
-      lFollowY = (1 * lMouseY) / 100;
+      lFollowY = (0.4 * lMouseY) / 100;
     });
 
     animate();
