@@ -11,16 +11,16 @@ class GraphicDesign extends Component {
                             <div className="row py-4 px-4">
                                 <div className="col-lg-6">
                                     <div>
-                                        <div>
+                                        <div  data-aos="fade-up"  data-aos-duration="500">
                                             <img src={graphicicon} />
                                         </div>
                                         <div className="pt-4">
-                                            <h2 className="mb-0 lightBlackColor boldFont-Play lsp-1">Graphic Design</h2>
-                                            <p className="lightGreyColor py-4 lsp-05">
+                                            <h2 className="mb-0 lightBlackColor boldFont-Play lsp-1"  data-aos="fade-up"  data-aos-duration="1000">Graphic Design</h2>
+                                            <p className="lightGreyColor py-4 lsp-05"  data-aos="fade-up"  data-aos-duration="1500">
                                                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
                                                 tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
                                              </p>
-                                            <div>
+                                            <div  data-aos="fade-up"  data-aos-duration="2000">
                                                 <a href="#" className="lightGreyColor text-decoration-none">
                                                     <span className="position-relative viewMenu mediumFont">View Projects</span>
                                                 </a>
@@ -29,7 +29,9 @@ class GraphicDesign extends Component {
                                     </div>
                                 </div>
                                 <div className="col-lg-6">
+                                    <div  data-aos="fade-right"  data-aos-duration="1000">
                                     <img src={graphic} className="w-100 graphicMargin" />
+                                    </div>
                                 </div>
                             </div>
                         </div>

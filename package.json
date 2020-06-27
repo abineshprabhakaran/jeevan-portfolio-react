@@ -2,11 +2,12 @@
   "name": "jeevan-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://abineshprabhakaran.github.io/jeevan-portfolio-react",
+  "homepage": "https://abineshprabhakaran.github.io/jeevan-portfolio-react/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "aos": "^3.0.0-beta.6",
     "gsap": "^3.3.4",
     "jquery": "^3.5.1",
     "react": "^16.13.1",
