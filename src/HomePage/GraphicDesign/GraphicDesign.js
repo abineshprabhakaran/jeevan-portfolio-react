@@ -12,7 +12,7 @@ class GraphicDesign extends Component {
                                 <div className="col-lg-6">
                                     <div>
                                         <div  data-aos="fade-up"  data-aos-duration="500">
-                                            <img src={graphicicon} />
+                                            <img src={graphicicon} alt="Graphic Icon"/>
                                         </div>
                                         <div className="pt-4">
                                             <h2 className="mb-0 lightBlackColor boldFont-Play lsp-1"  data-aos="fade-up"  data-aos-duration="1000">Graphic Design</h2>
@@ -30,7 +30,7 @@ class GraphicDesign extends Component {
                                 </div>
                                 <div className="col-lg-6">
                                     <div  data-aos="fade-right"  data-aos-duration="1000">
-                                    <img src={graphic} className="w-100 graphicMargin" />
+                                    <img src={graphic} className="w-100 graphicMargin" alt="Graphic Image"/>
                                     </div>
                                 </div>
                             </div>

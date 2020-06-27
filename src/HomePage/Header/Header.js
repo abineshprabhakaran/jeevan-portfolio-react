@@ -50,10 +50,14 @@ class Header extends Component {
                                 </Button>
                             </ListGroupItem>
                             <ListGroupItem className="nav-item  px-3">
-                                <Button className="nav-link px- py-1 text-uppercase position-relative greyColor menu ">Project</Button>
+                                <Button className="nav-link px- py-1 text-uppercase position-relative greyColor menu ">
+                                <Link  className="navLink">Projects </Link>
+                                </Button>
                             </ListGroupItem>
                             <ListGroupItem className="nav-item  px-3">
-                                <Button className="nav-link px-2 py-1 text-uppercase position-relative greyColor menu">Contact</Button>
+                                <Button className="nav-link px-2 py-1 text-uppercase position-relative greyColor menu">
+                                <Link to="/admin" className="navLink">Contact </Link>
+                                </Button>
                             </ListGroupItem>
                         </ListGroup>
                     </div>
