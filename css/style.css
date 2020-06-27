@@ -80,16 +80,10 @@ body {
   letter-spacing: 0.54px;
 }
 
-
-
-
-
 .activeHeader {
   background-color: #fff;
   box-shadow: -3px 0px 0px 1px #0000000f;
 }
-
-
 
 .viewMenu:after {
   height: 3px;
@@ -296,7 +290,7 @@ body {
   text-transform: inherit !important;
 }
 
-.viewButtonAnimation{
+.viewButtonAnimation {
   animation: secFadeIn 2s forwards;
   animation-delay: 2.8s;
   opacity: 0;
@@ -519,43 +513,49 @@ body {
   stroke-dasharray: 100, 543;
   stroke-dashoffset: 437;
 }
-.viewProfile{
-  line-height:2.4;
+
+.viewProfile {
+  line-height: 2.4;
 }
 
-a:focus{
-  box-shadow:none !important;
+a:focus {
+  box-shadow: none !important;
 }
-.movingBg{
+
+.movingBg {
   background-color: transparent;
-  position:fixed;
-  z-index:-1;
+  position: fixed;
+  z-index: -1;
 }
-.btn{
+
+.btn {
   width: inherit !important;
   height: inherit !important;
 }
+
 /* Over Riding Reactstrap  */
-.list-group-item{
-    padding: 0 !important;
-    margin-bottom: 0 !important;
-    background-color:transparent !important;
-    border: none !important;
-}
-.menu{
-  background: transparent !important;
-    border: 0 !important;
-    width: inherit !important;
-    height: inherit !important;
-    color:#888888 !important;
-    font-weight:inherit !important;
-    font-size:inherit !important;
-    box-shadow:none !important;
-}
-.menu:hover{
-  color: #444444 !important;
+
+.list-group-item {
+  padding: 0 !important;
+  margin-bottom: 0 !important;
+  background-color: transparent !important;
+  border: none !important;
 }
 
+.menu {
+  background: transparent !important;
+  border: 0 !important;
+  width: inherit !important;
+  height: inherit !important;
+  color: #888888 !important;
+  font-weight: inherit !important;
+  font-size: inherit !important;
+  box-shadow: none !important;
+}
+
+.menu:hover {
+  color: #444444 !important;
+}
 
 .menu:hover:after, .viewMenu:hover:after {
   width: 100%;
@@ -577,9 +577,11 @@ a:focus{
   -webkit-transition: width 0.5s;
   transition: width 0.5s;
 }
+
 .activeMenu {
   color: #444444 !important;
 }
+
 .activeMenu:after {
   width: 100%;
   height: 10px;
@@ -592,25 +594,63 @@ a:focus{
 }
 
 .cursor--small {
-	width: 20px;
-	height: 20px;
-	left: -10px;
-	top: -10px;
-	border-radius: 50%;
-	z-index: 99;
-	background: black;
+  width: 20px;
+  height: 20px;
+  left: -10px;
+  top: -10px;
+  border-radius: 50%;
+  z-index: 99;
+  background: black;
 }
 
 .cursor--canvas {
   width: 100vw;
   position: fixed;
-	height: 100vh;
-	z-index: 100;
+  height: 100vh;
+  z-index: 100;
 }
-.overflowHidden{
+
+.overflowHidden {
   overflow: hidden !important;
 }
-.navLink{
-  color:inherit !important;
+
+.navLink {
+  color: inherit !important;
   text-decoration: none !important;
+}
+
+.adminBg {
+  background-color: #f0f3f6 !important;
+  height: 100vh;
+}
+
+.adminSignInWidth {
+  width: 30%;
+}
+
+.whiteBg {
+  background-color: #fff;
+}
+
+.adminLogo img {
+  height: 60px;
+}
+
+.customInput {
+  border: 1px solid #cfcfcf;
+  border-radius: 5px !important;
+  padding: 10px 15px !important;
+  height: 40px;
+  width:100%;
+}
+.signInButton{
+    line-height: 0.5;
+    width:100%;
+    background-color: #FFD500;
+    text-align: center;
+    color:#444444 !important;
+    text-decoration: none !important;
+    height:45px;
+    border-radius:5px;
+
 }
