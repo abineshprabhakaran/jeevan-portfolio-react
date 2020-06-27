@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/jeevan-portfolio-react/static/css/main.5f361e03.chunk.css",
-    "main.js": "/jeevan-portfolio-react/static/js/main.410fe9a9.chunk.js",
-    "main.js.map": "/jeevan-portfolio-react/static/js/main.410fe9a9.chunk.js.map",
+    "main.js": "/jeevan-portfolio-react/static/js/main.454e6145.chunk.js",
+    "main.js.map": "/jeevan-portfolio-react/static/js/main.454e6145.chunk.js.map",
     "runtime-main.js": "/jeevan-portfolio-react/static/js/runtime-main.9bcfdca2.js",
     "runtime-main.js.map": "/jeevan-portfolio-react/static/js/runtime-main.9bcfdca2.js.map",
     "static/css/2.eb43dee1.chunk.css": "/jeevan-portfolio-react/static/css/2.eb43dee1.chunk.css",
-    "static/js/2.054b488b.chunk.js": "/jeevan-portfolio-react/static/js/2.054b488b.chunk.js",
-    "static/js/2.054b488b.chunk.js.map": "/jeevan-portfolio-react/static/js/2.054b488b.chunk.js.map",
+    "static/js/2.67db34dd.chunk.js": "/jeevan-portfolio-react/static/js/2.67db34dd.chunk.js",
+    "static/js/2.67db34dd.chunk.js.map": "/jeevan-portfolio-react/static/js/2.67db34dd.chunk.js.map",
     "index.html": "/jeevan-portfolio-react/index.html",
-    "precache-manifest.4ace9e7e9f93b4d85fa6397cb124489a.js": "/jeevan-portfolio-react/precache-manifest.4ace9e7e9f93b4d85fa6397cb124489a.js",
+    "precache-manifest.3041688d9238ed472b13ec1409b37e14.js": "/jeevan-portfolio-react/precache-manifest.3041688d9238ed472b13ec1409b37e14.js",
     "service-worker.js": "/jeevan-portfolio-react/service-worker.js",
     "static/css/2.eb43dee1.chunk.css.map": "/jeevan-portfolio-react/static/css/2.eb43dee1.chunk.css.map",
     "static/css/main.5f361e03.chunk.css.map": "/jeevan-portfolio-react/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.054b488b.chunk.js.LICENSE.txt": "/jeevan-portfolio-react/static/js/2.054b488b.chunk.js.LICENSE.txt",
+    "static/js/2.67db34dd.chunk.js.LICENSE.txt": "/jeevan-portfolio-react/static/js/2.67db34dd.chunk.js.LICENSE.txt",
     "static/media/favicon.png": "/jeevan-portfolio-react/static/media/favicon.c34fe99b.png",
     "static/media/graphic-icon.svg": "/jeevan-portfolio-react/static/media/graphic-icon.fe50c190.svg",
     "static/media/graphic.png": "/jeevan-portfolio-react/static/media/graphic.99253204.png",
@@ -26,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.9bcfdca2.js",
     "static/css/2.eb43dee1.chunk.css",
-    "static/js/2.054b488b.chunk.js",
+    "static/js/2.67db34dd.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.410fe9a9.chunk.js"
+    "static/js/main.454e6145.chunk.js"
   ]
 }
