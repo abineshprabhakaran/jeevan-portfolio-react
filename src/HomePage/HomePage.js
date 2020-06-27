@@ -29,8 +29,8 @@ class HomePage extends Component {
     $(window).on('mousemove click', function (e) {
       var lMouseX = Math.max(-100, Math.min(100, $(window).width() / 2 - e.clientX));
       var lMouseY = Math.max(-100, Math.min(100, $(window).height() / 2 - e.clientY));
-      lFollowX = (1 * lMouseX) / 100; 
-      lFollowY = (0.4 * lMouseY) / 100;
+      lFollowX = (0.5 * lMouseX) / 100; 
+      lFollowY = (0.3 * lMouseY) / 100;
     });
 
     animate();
