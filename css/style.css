@@ -37,6 +37,9 @@
 body {
   font-family: 'Campton-Light' !important;
 }
+body::-webkit-scrollbar{
+  display: none;
+}
 
 .semiBoldFont {
   font-family: 'Campton-SemiBold' !important;
@@ -82,7 +85,7 @@ body {
 
 .header {
   background-color: #fff;
-  box-shadow: -3px 0px 0px 1px #0000000f;
+  box-shadow: 0px 10px 20px #00000061;
   visibility: hidden;
   width:0;
 }
@@ -459,7 +462,7 @@ body {
 }
 
 .sectionTop {
-  margin-top: 150px;
+  margin-top: 180px;
 }
 
 .websiteSection {
