@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
-import jeevan from '../../images/jeevan.png';
+import { Button } from 'reactstrap';
+import {Link} from 'react-router-dom';
 
 class Banner extends Component {
   render() {
     return (
     <div>
         <div className="firstSection position-relative d-flex justify-content-between align-items-center">
-            <div className="w-50 align-self-end">
-                <img src={jeevan} className="w-75 sliderImage" alt="Jeevan Raj"/>
-            </div>
             <div className="w-50">
                 <div className="banner">
                     <div className="box">
@@ -31,19 +29,9 @@ class Banner extends Component {
                         </div>
                         <div className="pt-4 viewButtonAnimation">
                             <div  className="btn arrowButton" htmlFor="animation3">
-                                <svg width="180" height="50">
-                                    <defs>
-                                        <linearGradient id="grad1">
-                                            <stop offset="0%" stopColor="#222222" />
-                                            <stop offset="100%" stopColor="#222222" />
-                                        </linearGradient>
-                                    </defs>
-                                    <rect x="5" y="5" rx="20" fill="none" stroke="url(#grad1)" width="161" height="40">
-                                    </rect>
-                                </svg>
-                                <div className="d-flex viewProfileDiv">
-                                    <div className="viewProfile">View Profile</div>
-                                </div>
+                            <Button className="nav-link px-2 py-1 text-uppercase position-relative viewProfileButton">
+                               <Link to="/about" className="navLink">View Profile </Link>
+                               </Button>
                             </div>
                         </div>
                     </div>

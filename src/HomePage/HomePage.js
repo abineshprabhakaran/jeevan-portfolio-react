@@ -6,6 +6,8 @@ import WebsiteDevelopment from './WesbiteDevelopment/WebsiteDevelopment';
 import MobileDesign from './MobileDesign/MobileDesign';
 import GraphicDesign from './GraphicDesign/GraphicDesign';
 import $ from 'jquery';
+import LogoDesign from './LogoDesign/LogoDesign';
+import Footer from './Footer/Footer';
 
 class HomePage extends Component {
   componentDidMount() {
@@ -38,15 +40,15 @@ class HomePage extends Component {
   render() {
     return (
       <div>
-        <Container fluid={true}>
-          <Header />
+        <Header />
           <div id="wrapper">
             <Banner />
             <WebsiteDevelopment />
             <MobileDesign />
             <GraphicDesign />
+            <LogoDesign />
+            <Footer />
           </div>
-        </Container>
       </div>
     );
   }

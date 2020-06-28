@@ -1,67 +1,78 @@
 import React, { Component } from 'react';
-import { ListGroup, ListGroupItem, Button } from 'reactstrap';
+import { ListGroup, ListGroupItem, Button , Container } from 'reactstrap';
 import {Link} from 'react-router-dom';
-import $ from 'jquery';
+import linkedin from '../../images/linkedin.svg'
+import dribble from '../../images/dribbble.svg'
+import instagram from '../../images/instagram.svg'
+import whatsapp from '../../images/whatsapp.svg'
 import jrlogo from '../../images/favicon.png';
 
 class Header extends Component {
-    componentDidMount() {
-        $(window).on("scroll", function () {
-            if ($(window).scrollTop() > 50) {
-                $(".header").addClass("activeHeader");
-            } else {
-                $(".header").removeClass("activeHeader");
-            }
-        });
-        $(window).on("scroll", function () {
-            if ($(window).scrollTop() > 50) {
-                $(".logoContainer").addClass("logoContainerBlock");
-            } else {
-                $(".logoContainer").removeClass("logoContainerBlock");
-            }
-        });
-        $(window).on("scroll", function () {
-            if ($(window).scrollTop() > 50) {
-                $(".jusEnd").addClass("jusBetween");
-            } else {
-                $(".jusEnd").removeClass("jusBetween");
-            }
-        });
-
-    }
     
     render() {
         return (
             <div>
-                <nav className="navbar align-items-center navbar-expand-lg p-0 fixed-top header py-3">
-                    <div className="collapse navbar-collapse jusEnd" id="navbarSupportedContent">
-                        <div className="logoContainer px-4">
-                            <img src={jrlogo} className="logo" />
+            <div class="toggle">
+              <div class="togglemain h-100 whiteColor d-flex justify-content-center align-items-center">
+              <img src={jrlogo} className="logo" alt="logo" />
+              </div>
+            
+                <nav className="navbar  align-items-center navbar-expand-lg p-0 fixed-top header py-2 mt-4 mx-4">
+                <div className="collapse navbar-collapse animationDelayHeader" id="navbarSupportedContent">
+                       
+                       <ListGroup className="navbar-nav flex-row">
+                           <ListGroupItem className="nav-item  px-3">
+                               <Button className="nav-link px-2 py-1 text-uppercase position-relative menu">
+                               <Link to="/" className="navLink">Home </Link>
+                               </Button>
+                           </ListGroupItem>
+                           <ListGroupItem className="nav-item  px-3">
+                               <Button className="nav-link px-2 py-1 text-uppercase position-relative greyColor menu ">
+                               <Link to="/about" className="navLink">About </Link>
+                               </Button>
+                           </ListGroupItem>
+                           <ListGroupItem className="nav-item  px-3">
+                               <Button className="nav-link px-2 py-1 text-uppercase position-relative greyColor menu ">
+                               <Link  className="navLink">Projects </Link>
+                               </Button>
+                           </ListGroupItem>
+                           <ListGroupItem className="nav-item  px-3">
+                               <Button className="nav-link px-2 py-1 text-uppercase position-relative greyColor menu">
+                               <Link to="/admin" className="navLink">Contact </Link>
+                               </Button>
+                           </ListGroupItem>
+                       </ListGroup>
+                   </div>
+                <div className="px-4 animationDelayHeader">
+                            <img src={jrlogo} className="logo" alt="logo" />
                         </div>
+                    <div className="collapse navbar-collapse justify-content-end animationDelayHeader" id="navbarSupportedContent">
+                       
                         <ListGroup className="navbar-nav flex-row">
                             <ListGroupItem className="nav-item  px-3">
                                 <Button className="nav-link px-2 py-1 text-uppercase position-relative menu">
-                                <Link to="/" className="navLink">Home </Link>
+                                <img src={linkedin} alt="Linked In" />
                                 </Button>
                             </ListGroupItem>
                             <ListGroupItem className="nav-item  px-3">
                                 <Button className="nav-link px-2 py-1 text-uppercase position-relative greyColor menu ">
-                                <Link to="/about" className="navLink">About </Link>
+                                <img src={whatsapp} alt="Whatsapp" />
                                 </Button>
                             </ListGroupItem>
                             <ListGroupItem className="nav-item  px-3">
                                 <Button className="nav-link px- py-1 text-uppercase position-relative greyColor menu ">
-                                <Link  className="navLink">Projects </Link>
+                                <img src={instagram} alt="Instagram" />
                                 </Button>
                             </ListGroupItem>
                             <ListGroupItem className="nav-item  px-3">
                                 <Button className="nav-link px-2 py-1 text-uppercase position-relative greyColor menu">
-                                <Link to="/admin" className="navLink">Contact </Link>
+                                <img src={dribble} alt="Dribble" />
                                 </Button>
                             </ListGroupItem>
                         </ListGroup>
                     </div>
                 </nav>
+                </div>
             </div>
         );
     }

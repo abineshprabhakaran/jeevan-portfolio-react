@@ -5,7 +5,9 @@ import {FormGroup , Input} from 'reactstrap';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+
 class SignIn extends Component {
+    
     componentDidMount() {
         AOS.init({
             once: true,
@@ -20,15 +22,15 @@ class SignIn extends Component {
                                 <div className="adminLogo text-center mb-2">
                                   <img src={jrlogo} />
                                 </div>
-                                <form className="pt-3">
+                                <form className="pt-3" action="auth" method="POST">
                                     <FormGroup>
-                                        <Input type="email" className="customInput" placeholder="Username" />
+                                        <Input type="name" name="username" className="customInput" placeholder="Username" required />
                                     </FormGroup>
                                     <FormGroup>
-                                        <Input type="password" className="customInput" placeholder="Password" />
+                                        <Input type="password" name="password" className="customInput" placeholder="Password" required />
                                     </FormGroup>
                                     <div className="mt-4">
-                                        <Link className="signInButton semiBoldFont d-flex justify-content-center align-items-center text-uppercase"><span>Sign In</span></Link>
+                                        <button type="submit" className="signInButton semiBoldFont d-flex justify-content-center align-items-center text-uppercase"><span>Sign In</span></button>
                                     </div>
                                   
 

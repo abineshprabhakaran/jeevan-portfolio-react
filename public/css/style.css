@@ -80,9 +80,16 @@ body {
   letter-spacing: 0.54px;
 }
 
-.activeHeader {
+.header {
   background-color: #fff;
   box-shadow: -3px 0px 0px 1px #0000000f;
+  visibility: hidden;
+  width:0;
+}
+.toggle:hover .header{
+ visibility: visible;
+ width:auto;
+ animation: menuTransition 1s cubic-bezier(0.74, 0.06, 0.4, 0.92);
 }
 
 .viewMenu:after {
@@ -100,8 +107,8 @@ body {
 
 .firstSection {
   height: 100vh;
-  background-image: url('../public-images/yellow-rectangle.svg');
-  background-size: 38% !important;
+  background-image: url('../public-images/banner.png');
+  background-size: cover !important;
   background-repeat: no-repeat !important;
   background-position: top left !important;
   padding: 3%;
@@ -124,6 +131,12 @@ body {
 
 .lightBlackColor {
   color: #222222 !important;
+}
+.blackColor{
+  color:#000 !important;
+}
+.f-14{
+  font-size:14px;
 }
 
 /* Preloader  */
@@ -224,7 +237,7 @@ body {
 }
 
 .banner .box .title h1 {
-  color: #000;
+  color: #fff;
   font-size: 10vh;
   -webkit-animation: mainFadeIn 2s forwards;
   -o-animation: mainFadeIn 2s forwards;
@@ -274,7 +287,7 @@ body {
   animation: secFadeIn 2s forwards;
   animation-delay: 2s;
   opacity: 0;
-  color: #000;
+  color: #fff;
   font-size: 5vh;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -284,7 +297,7 @@ body {
   animation: secFadeIn 2s forwards;
   animation-delay: 2.5s;
   opacity: 0;
-  color: #000;
+  color: #fff;
   font-size: 16px;
   letter-spacing: 2px;
   text-transform: inherit !important;
@@ -296,8 +309,13 @@ body {
   opacity: 0;
 }
 
-.viewProfileButton img {
-  height: 25px;
+.viewProfileButton {
+  border: 1px solid #FFFFFF!important;
+  border-radius: 5px;
+  background-color:transparent !important;
+}
+.viewProfileButton a{
+  color:#fff !important;
 }
 
 @keyframes mainBlock {
@@ -329,6 +347,22 @@ body {
     left: 100%;
   }
 }
+@keyframes menuTransition {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 97%;
+  }
+}
+@keyframes menuTransition1 {
+  100% {
+    width: 97%;
+  }
+  100% {
+    width: 0%;
+  }
+}
 
 @keyframes mainFadeIn {
   0% {
@@ -338,6 +372,7 @@ body {
     opacity: 1;
   }
 }
+
 
 @keyframes popIn {
   0% {
@@ -482,6 +517,16 @@ body {
   opacity: 0;
 }
 
+.animationDelayHeader {
+  visibility: hidden;
+}
+.toggle:hover  .animationDelayHeader{
+  visibility: visible;
+  animation: secFadeIn 1s forwards;
+  animation-delay: 0.8s;
+  opacity: 0;
+}
+
 .btn {
   position: relative;
   display: inline-block;
@@ -552,6 +597,7 @@ a:focus {
   font-size: inherit !important;
   box-shadow: none !important;
 }
+
 
 .menu:hover {
   color: #444444 !important;
@@ -631,6 +677,9 @@ a:focus {
 .whiteBg {
   background-color: #fff;
 }
+.whiteColor{
+  color:#fff !important;
+}
 
 .adminLogo img {
   height: 60px;
@@ -652,5 +701,32 @@ a:focus {
     text-decoration: none !important;
     height:45px;
     border-radius:5px;
+    border:0px !important;
 
+}
+.footerInput{
+  border: 1px solid #000000 !important;
+  padding: 10px 15px !important;
+  height: 50px !important; 
+  width:100% !important;
+  border-radius:0px !important;
+  border-right:0px !important
+}
+.footerArrowButton{
+  border: 1px solid #000000 !important;
+  padding: 10px 15px !important;
+  height: 50px !important; 
+  background-color: transparent !important;
+  border-radius:0px !important;
+  border-left:0px !important
+}
+.toggle{
+    height: 58px;
+    width: 50px;
+    background: #fff;
+    top: 24px;
+    position: fixed;
+    z-index: 100;
+    left: 24px;
+    cursor: pointer;
 }
