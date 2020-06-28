@@ -9,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <BrowserRouter>
+        <BrowserRouter basename={`${process.env.PUBLIC_URL}/`}>
        <Route path="/" component={HomePage} exact />
        <Route path="/about" component={About}  />
        <Route path="/admin" component={Admin}  />
