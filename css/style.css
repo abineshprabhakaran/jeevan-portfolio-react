@@ -36,7 +36,13 @@
 
 body {
   font-family: 'Campton-Light' !important;
+  overflow-x:hidden !important;
+  
 }
+.form-control:focus{
+  box-shadow:none !important;
+}
+
 body::-webkit-scrollbar{
   display: none;
 }
@@ -135,11 +141,17 @@ body::-webkit-scrollbar{
 .lightBlackColor {
   color: #222222 !important;
 }
+.lightBlackBg {
+  background-color: #222222 !important;
+}
 .blackColor{
   color:#000 !important;
 }
 .f-14{
   font-size:14px;
+}
+.hamburgerMenu{
+  height:25px;
 }
 
 /* Preloader  */
@@ -313,8 +325,7 @@ body::-webkit-scrollbar{
 }
 
 .viewProfileButton {
-  border: 1px solid #FFFFFF!important;
-  border-radius: 5px;
+  border: 0px !important;
   background-color:transparent !important;
 }
 .viewProfileButton a{
@@ -467,18 +478,22 @@ body::-webkit-scrollbar{
 
 .websiteSection {
   background: #FFF8E8 0% 0% no-repeat padding-box;
+  margin-left:5%;
 }
 
 .mobileSection {
   background: #EBFAFF 0% 0% no-repeat padding-box;
+  margin-right:5%;
 }
 
 .graphicSection {
   background: #E9F6FF 0% 0% no-repeat padding-box;
+  margin-left:5%;
 }
 
 .logoSection {
   background: #F8F2E0 0% 0% no-repeat padding-box;
+  margin-right:5%;
 }
 
 .laptopMargin {
@@ -519,6 +534,7 @@ body::-webkit-scrollbar{
   animation-delay: 0.5s;
   opacity: 0;
 }
+
 
 .animationDelayHeader {
   visibility: hidden;
@@ -566,6 +582,9 @@ body::-webkit-scrollbar{
   line-height: 2.4;
 }
 
+.lh-15{
+  line-height:1.5;
+}
 a:focus {
   box-shadow: none !important;
 }
@@ -658,6 +677,9 @@ a:focus {
   height: 100vh;
   z-index: 100;
 }
+.blackBg{
+  background-color:#000 !important;
+}
 
 .overflowHidden {
   overflow: hidden !important;
@@ -707,6 +729,7 @@ a:focus {
     border:0px !important;
 
 }
+.link{ text-decoration: none !important;}
 .footerInput{
   border: 1px solid #000000 !important;
   padding: 10px 15px !important;
@@ -725,11 +748,91 @@ a:focus {
 }
 .toggle{
     height: 58px;
-    width: 50px;
+    width: 60px;
     background: #fff;
     top: 24px;
     position: fixed;
     z-index: 100;
     left: 24px;
     cursor: pointer;
+    box-shadow: 0px 0px 20px #0000001A;
+}
+.socialIconsHeader{
+  height:25px;
+}
+.marginlr--15{
+  margin-right:-15px !important;
+  margin-left:-15px !important;
+}
+ /* cursor  */
+
+
+
+.cursor {
+  position: fixed;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+}
+
+.cursor--small {
+  width: 20px;
+  height: 20px;
+  left: -10px;
+  top: -10px;
+  border-radius: 50%;
+  z-index: 99;
+  background: #FFD500;
+}
+
+.aboutText1{
+  font-size: 60px;
+    margin-top: 10%;
+}
+.aboutTitle{
+  font-size:70px;
+}
+.logoMarginTop{
+  margin-top:35px;
+}
+.aboutServices{
+  width:20%;
+  padding-left:10px;
+  padding-right:10px;
+}
+.mt--15{
+  margin-top:-15px;
+}
+.helloThere{
+  margin-top: -110px;
+    margin-bottom: -110px;
+    width:85%;
+}
+.webServices{
+  cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto;
+}
+.mobileServices{
+  cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto;
+}
+.logoServices{
+  cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto;
+}
+.motionServices{
+  cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto;
+}
+.graphicServices{
+  cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto;
+}
+.workExpMargin{
+  margin-left: -30px;
+}
+.displineBg{
+  background-image: url('../public-images/disciplines.svg');
+  background-position: 75% 70%;
+    background-size: 75%;
+    background-repeat: no-repeat;
+}
+.socialMenu{
+  background: transparent !important;
+    border: none !important;
 }
