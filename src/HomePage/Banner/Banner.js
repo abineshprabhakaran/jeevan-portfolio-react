@@ -58,7 +58,7 @@ class Banner extends Component {
                         <div className="pt-4 viewButtonAnimation">
                             <div  className="btn arrowButton" htmlFor="animation3">
                             <Button className="nav-link px-2 py-1 text-uppercase position-relative viewProfileButton">
-                               <Link to="/about" className="navLink">View Profile </Link>
+                               <Link to="/about" className="link">View Profile </Link>
                                </Button>
                             </div>
                         </div>

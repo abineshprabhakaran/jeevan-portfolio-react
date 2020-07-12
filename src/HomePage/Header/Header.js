@@ -6,18 +6,25 @@ import dribble from '../../images/dribbble.svg'
 import instagram from '../../images/instagram.svg'
 import whatsapp from '../../images/whatsapp.svg'
 import jrlogo from '../../images/favicon.png';
+import hamburger from '../../images/menu.svg';
 
 class Header extends Component {
+    componentDidMount(){
+        function toggle(id) {
+            var elt = document.getElementById(id);
+            elt.style.display = elt.style.visibility=='visible' ? 'hidden' : 'visible';
+          }
+    }
     
     render() {
         return (
             <div>
-            <div class="toggle">
-              <div class="togglemain h-100 whiteColor d-flex justify-content-center align-items-center">
-              <img src={jrlogo} className="logo" alt="logo" />
+            <div className="toggle">
+              <div className="togglemain h-100 whiteColor d-flex justify-content-center align-items-center">
+              <img src={hamburger} className="hamburgerMenu" alt="hamburgermenu" />
               </div>
             
-                <nav className="navbar  align-items-center navbar-expand-lg p-0 fixed-top header py-2 mt-4 mx-4">
+                <nav className="navbar  align-items-center navbar-expand-lg p-0 fixed-top header py-2 mt-4 mx-4" id="header">
                 <div className="collapse navbar-collapse animationDelayHeader" id="navbarSupportedContent">
                        
                        <ListGroup className="navbar-nav flex-row">
@@ -33,12 +40,12 @@ class Header extends Component {
                            </ListGroupItem>
                            <ListGroupItem className="nav-item  px-3">
                                <Button className="nav-link px-2 py-1 text-uppercase position-relative greyColor menu ">
-                               <Link  className="navLink">Projects </Link>
+                               <Link to="" className="navLink">Projects </Link>
                                </Button>
                            </ListGroupItem>
                            <ListGroupItem className="nav-item  px-3">
                                <Button className="nav-link px-2 py-1 text-uppercase position-relative greyColor menu">
-                               <Link to="/admin" className="navLink">Contact </Link>
+                               <Link to="" className="navLink">Contact </Link>
                                </Button>
                            </ListGroupItem>
                        </ListGroup>
@@ -49,24 +56,24 @@ class Header extends Component {
                     <div className="collapse navbar-collapse justify-content-end animationDelayHeader" id="navbarSupportedContent">
                        
                         <ListGroup className="navbar-nav flex-row">
-                            <ListGroupItem className="nav-item  px-3">
-                                <Button className="nav-link px-2 py-1 text-uppercase position-relative menu">
-                                <img src={linkedin} alt="Linked In" />
+                            <ListGroupItem className="nav-item  px-2">
+                                <Button className="nav-link  py-1 text-uppercase socialMenu">
+                                <img src={linkedin} alt="Linked In" className="socialIconsHeader" />
                                 </Button>
                             </ListGroupItem>
-                            <ListGroupItem className="nav-item  px-3">
-                                <Button className="nav-link px-2 py-1 text-uppercase position-relative greyColor menu ">
-                                <img src={whatsapp} alt="Whatsapp" />
+                            <ListGroupItem className="nav-item  px-2">
+                                <Button className="nav-link  py-1 text-uppercase  socialMenu ">
+                                <img src={whatsapp} alt="Whatsapp" className="socialIconsHeader" />
                                 </Button>
                             </ListGroupItem>
-                            <ListGroupItem className="nav-item  px-3">
-                                <Button className="nav-link px- py-1 text-uppercase position-relative greyColor menu ">
-                                <img src={instagram} alt="Instagram" />
+                            <ListGroupItem className="nav-item  px-2">
+                                <Button className="nav-link  py-1 text-uppercase  socialMenu ">
+                                <img src={instagram} alt="Instagram" className="socialIconsHeader" />
                                 </Button>
                             </ListGroupItem>
-                            <ListGroupItem className="nav-item  px-3">
-                                <Button className="nav-link px-2 py-1 text-uppercase position-relative greyColor menu">
-                                <img src={dribble} alt="Dribble" />
+                            <ListGroupItem className="nav-item  px-2">
+                                <Button className="nav-link  py-1 text-uppercase  socialMenu">
+                                <img src={dribble} alt="Dribble" className="socialIconsHeader" />
                                 </Button>
                             </ListGroupItem>
                         </ListGroup>

@@ -28,7 +28,7 @@ class MobileDesign extends Component {
                                              </p>
                                             <div data-aos="fade-up"  data-aos-duration="2000">
                                                 <a href="#" className="lightGreyColor text-decoration-none">
-                                                    <span className="position-relative viewMenu mediumFont">View Projects</span>
+                                                    <span className="position-relative another-link mediumFont">View Projects</span>
                                                 </a>
                                             </div>
                                         </div>

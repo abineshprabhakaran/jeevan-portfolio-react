@@ -18,7 +18,7 @@ class Footer extends Component {
                                     <h3 className="semiBoldFont">Let's stay in touch.</h3>
                                 </div>
                                 <FormGroup className="pt-4 d-flex">
-                                    <Input type="password" name="password" className="footerInput" placeholder="Email" required />
+                                    <Input type="email" name="email" className="footerInput" placeholder="Email" required />
                                     <Button className="footerArrowButton">   <img src={footerarrow}  alt="Footer arrow icon" /> </Button>
                                 </FormGroup>
                             </div>
@@ -30,7 +30,7 @@ class Footer extends Component {
                             </div>
                         </div>
                     </div>
-                    <div class="pt-4 pb-3">
+                    <div className="pt-4 pb-3">
                     <div className="row mx-0 justify-content-between">
                         <div className="col-lg-3">
                             <div>
@@ -52,7 +52,7 @@ class Footer extends Component {
                            </ListGroupItem>
                        </ListGroup>
                             </div>
-                            <div class="pt-2">
+                            <div className="pt-2">
                             <ListGroup className="navbar-nav flex-row">
                            <ListGroupItem className="nav-item  pr-3">
                                <Button className="nav-link pr-2 py-1   position-relative menu ">
@@ -79,7 +79,7 @@ class Footer extends Component {
 
                         </div>
                         <div className="col-lg-3 d-flex justify-content-end align-self-end">
-                            <div class="f-14">
+                            <div className="f-14">
                             Copyright © 2020 Jeevan Raj
                             </div>
                         </div>

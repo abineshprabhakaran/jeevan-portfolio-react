@@ -9,6 +9,8 @@ class WebsiteDevelopment extends Component {
         AOS.init({
             once: true,
         });
+     
+   
     }
 
     render() {
@@ -31,8 +33,8 @@ class WebsiteDevelopment extends Component {
                                                 tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
                                              </p>
                                             <div data-aos="fade-up" data-aos-duration="2000">
-                                                <a href="#" className="lightGreyColor text-decoration-none">
-                                                    <span className="position-relative viewMenu mediumFont">View Projects</span>
+                                                <a href="#" className="lightGreyColor text-decoration-none magnetize">
+                                                    <span className="position-relative  another-link mediumFont">View Projects</span>
                                                 </a>
                                             </div>
                                         </div>
