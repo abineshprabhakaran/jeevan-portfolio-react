@@ -40,12 +40,12 @@ class Header extends Component {
                            </ListGroupItem>
                            <ListGroupItem className="nav-item  px-3">
                                <Button className="nav-link px-2 py-1 text-uppercase position-relative greyColor menu ">
-                               <Link to="" className="navLink">Projects </Link>
+                               <Link to="/projects"  className="navLink">Projects </Link>
                                </Button>
                            </ListGroupItem>
                            <ListGroupItem className="nav-item  px-3">
                                <Button className="nav-link px-2 py-1 text-uppercase position-relative greyColor menu">
-                               <Link to="" className="navLink">Contact </Link>
+                               <Link to="/contact" className="navLink">Contact </Link>
                                </Button>
                            </ListGroupItem>
                        </ListGroup>
@@ -57,24 +57,24 @@ class Header extends Component {
                        
                         <ListGroup className="navbar-nav flex-row">
                             <ListGroupItem className="nav-item  px-2">
-                                <Button className="nav-link  py-1 text-uppercase socialMenu">
+                                <a className="nav-link  py-1 text-uppercase socialMenu">
                                 <img src={linkedin} alt="Linked In" className="socialIconsHeader" />
-                                </Button>
+                                </a>
                             </ListGroupItem>
                             <ListGroupItem className="nav-item  px-2">
-                                <Button className="nav-link  py-1 text-uppercase  socialMenu ">
+                                <a className="nav-link  py-1 text-uppercase  socialMenu ">
                                 <img src={whatsapp} alt="Whatsapp" className="socialIconsHeader" />
-                                </Button>
+                                </a>
                             </ListGroupItem>
                             <ListGroupItem className="nav-item  px-2">
-                                <Button className="nav-link  py-1 text-uppercase  socialMenu ">
+                                <a className="nav-link  py-1 text-uppercase  socialMenu ">
                                 <img src={instagram} alt="Instagram" className="socialIconsHeader" />
-                                </Button>
+                                </a>
                             </ListGroupItem>
                             <ListGroupItem className="nav-item  px-2">
-                                <Button className="nav-link  py-1 text-uppercase  socialMenu">
+                                <a className="nav-link  py-1 text-uppercase  socialMenu">
                                 <img src={dribble} alt="Dribble" className="socialIconsHeader" />
-                                </Button>
+                                </a>
                             </ListGroupItem>
                         </ListGroup>
                     </div>

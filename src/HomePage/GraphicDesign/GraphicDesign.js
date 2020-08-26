@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import graphicicon from '../../images/graphic-icon.svg';
 import graphic from '../../images/graphic.png';
+import { Link } from 'react-router-dom';
 class GraphicDesign extends Component {
     render() {
         return (
@@ -21,9 +22,9 @@ class GraphicDesign extends Component {
                                                 tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
                                              </p>
                                             <div  data-aos="fade-up"  data-aos-duration="2000">
-                                                <a href="#" className="lightGreyColor text-decoration-none">
+                                                <Link to="/projects" className="lightGreyColor text-decoration-none">
                                                     <span className="position-relative another-link mediumFont">View Projects</span>
-                                                </a>
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>

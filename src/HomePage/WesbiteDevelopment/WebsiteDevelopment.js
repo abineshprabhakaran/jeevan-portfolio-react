@@ -3,6 +3,7 @@ import websiteicon from '../../images/website-icon.svg';
 import laptop from '../../images/laptop.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Link } from 'react-router-dom';
 
 class WebsiteDevelopment extends Component {
     componentDidMount() {
@@ -33,9 +34,9 @@ class WebsiteDevelopment extends Component {
                                                 tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
                                              </p>
                                             <div data-aos="fade-up" data-aos-duration="2000">
-                                                <a href="#" className="lightGreyColor text-decoration-none magnetize">
+                                                <Link to="/projects" className="lightGreyColor text-decoration-none magnetize">
                                                     <span className="position-relative  another-link mediumFont">View Projects</span>
-                                                </a>
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>

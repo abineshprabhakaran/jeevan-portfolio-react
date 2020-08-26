@@ -10,7 +10,7 @@ class Footer extends Component {
     render() {
         return (
             <div>
-                <div className="pt-5 mt-5 container-fluid">
+                <div className="pt-5 container-fluid">
                     <div className="row mx-0 justify-content-between">
                         <div className="col-lg-3">
                             <div>
@@ -42,12 +42,12 @@ class Footer extends Component {
                            </ListGroupItem>
                            <ListGroupItem className="nav-item  pr-3">
                                <Button className="nav-link pr-2 py-1 semiBoldFont position-relative menu ">
-                               <Link  className=" blackColor text-decoration-none">Projects </Link>
+                               <Link  to="/projects" className=" blackColor text-decoration-none">Projects </Link>
                                </Button>
                            </ListGroupItem>
                            <ListGroupItem className="nav-item  pr-3">
                                <Button className="nav-link pr-2 py-1 semiBoldFont position-relative menu">
-                               <Link to="/admin" className="blackColor text-decoration-none">Contact </Link>
+                               <Link  className="blackColor text-decoration-none">Contact </Link>
                                </Button>
                            </ListGroupItem>
                        </ListGroup>
