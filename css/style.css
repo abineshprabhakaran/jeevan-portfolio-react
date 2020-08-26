@@ -36,14 +36,14 @@
 
 body {
   font-family: 'Campton-Light' !important;
-  overflow-x:hidden !important;
-  
-}
-.form-control:focus{
-  box-shadow:none !important;
+  overflow-x: hidden !important;
 }
 
-body::-webkit-scrollbar{
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+body::-webkit-scrollbar {
   display: none;
 }
 
@@ -93,12 +93,13 @@ body::-webkit-scrollbar{
   background-color: #fff;
   box-shadow: 0px 10px 20px #00000061;
   visibility: hidden;
-  width:0;
+  width: 0;
 }
-.toggle:hover .header{
- visibility: visible;
- width:auto;
- animation: menuTransition 1s cubic-bezier(0.74, 0.06, 0.4, 0.92);
+
+.toggle:hover .header {
+  visibility: visible;
+  width: auto;
+  animation: menuTransition 1s cubic-bezier(0.74, 0.06, 0.4, 0.92);
 }
 
 .viewMenu:after {
@@ -141,17 +142,21 @@ body::-webkit-scrollbar{
 .lightBlackColor {
   color: #222222 !important;
 }
+
 .lightBlackBg {
   background-color: #222222 !important;
 }
-.blackColor{
-  color:#000 !important;
+
+.blackColor {
+  color: #000 !important;
 }
-.f-14{
-  font-size:14px;
+
+.f-14 {
+  font-size: 14px;
 }
-.hamburgerMenu{
-  height:25px;
+
+.hamburgerMenu {
+  height: 25px;
 }
 
 /* Preloader  */
@@ -326,10 +331,11 @@ body::-webkit-scrollbar{
 
 .viewProfileButton {
   border: 0px !important;
-  background-color:transparent !important;
+  background-color: transparent !important;
 }
-.viewProfileButton a{
-  color:#fff !important;
+
+.viewProfileButton a {
+  color: #fff !important;
 }
 
 @keyframes mainBlock {
@@ -361,6 +367,7 @@ body::-webkit-scrollbar{
     left: 100%;
   }
 }
+
 @keyframes menuTransition {
   0% {
     width: 0%;
@@ -369,6 +376,7 @@ body::-webkit-scrollbar{
     width: 97%;
   }
 }
+
 @keyframes menuTransition1 {
   100% {
     width: 97%;
@@ -386,7 +394,6 @@ body::-webkit-scrollbar{
     opacity: 1;
   }
 }
-
 
 @keyframes popIn {
   0% {
@@ -478,22 +485,22 @@ body::-webkit-scrollbar{
 
 .websiteSection {
   background: #FFF8E8 0% 0% no-repeat padding-box;
-  margin-left:5%;
+  margin-left: 5%;
 }
 
 .mobileSection {
   background: #EBFAFF 0% 0% no-repeat padding-box;
-  margin-right:5%;
+  margin-right: 5%;
 }
 
 .graphicSection {
   background: #E9F6FF 0% 0% no-repeat padding-box;
-  margin-left:5%;
+  margin-left: 5%;
 }
 
 .logoSection {
   background: #F8F2E0 0% 0% no-repeat padding-box;
-  margin-right:5%;
+  margin-right: 5%;
 }
 
 .laptopMargin {
@@ -535,11 +542,11 @@ body::-webkit-scrollbar{
   opacity: 0;
 }
 
-
 .animationDelayHeader {
   visibility: hidden;
 }
-.toggle:hover  .animationDelayHeader{
+
+.toggle:hover .animationDelayHeader {
   visibility: visible;
   animation: secFadeIn 1s forwards;
   animation-delay: 0.8s;
@@ -582,9 +589,10 @@ body::-webkit-scrollbar{
   line-height: 2.4;
 }
 
-.lh-15{
-  line-height:1.5;
+.lh-15 {
+  line-height: 1.5;
 }
+
 a:focus {
   box-shadow: none !important;
 }
@@ -608,7 +616,9 @@ a:focus {
   background-color: transparent !important;
   border: none !important;
 }
-
+.darkGreyColor{
+  color:#888888 !important;
+}
 .menu {
   background: transparent !important;
   border: 0 !important;
@@ -619,7 +629,6 @@ a:focus {
   font-size: inherit !important;
   box-shadow: none !important;
 }
-
 
 .menu:hover {
   color: #444444 !important;
@@ -677,8 +686,9 @@ a:focus {
   height: 100vh;
   z-index: 100;
 }
-.blackBg{
-  background-color:#000 !important;
+
+.blackBg {
+  background-color: #000 !important;
 }
 
 .overflowHidden {
@@ -702,8 +712,9 @@ a:focus {
 .whiteBg {
   background-color: #fff;
 }
-.whiteColor{
-  color:#fff !important;
+
+.whiteColor {
+  color: #fff !important;
 }
 
 .adminLogo img {
@@ -715,58 +726,90 @@ a:focus {
   border-radius: 5px !important;
   padding: 10px 15px !important;
   height: 40px;
-  width:100%;
+  width: 100%;
 }
-.signInButton{
-    line-height: 0.5;
-    width:100%;
-    background-color: #FFD500;
-    text-align: center;
-    color:#444444 !important;
-    text-decoration: none !important;
-    height:45px;
-    border-radius:5px;
-    border:0px !important;
 
+.signInButton {
+  line-height: 0.5;
+  width: 100%;
+  background-color: #FFD500;
+  text-align: center;
+  color: #444444 !important;
+  text-decoration: none !important;
+  height: 45px;
+  border-radius: 5px;
+  border: 0px !important;
 }
-.link{ text-decoration: none !important;}
-.footerInput{
+
+.link {
+  text-decoration: none !important;
+}
+
+.footerInput {
   border: 1px solid #000000 !important;
   padding: 10px 15px !important;
-  height: 50px !important; 
-  width:100% !important;
-  border-radius:0px !important;
-  border-right:0px !important
+  height: 50px !important;
+  width: 100% !important;
+  border-radius: 0px !important;
+  border-right: 0px !important
 }
-.footerArrowButton{
-  border: 1px solid #000000 !important;
-  padding: 10px 15px !important;
-  height: 50px !important; 
+.contactBg{
+  background-color:#333333;
+}
+.contactInput {
+  border:0px !important;
+  border-bottom: 1px solid #cfcfcf !important;
+  padding: 5px !important;
+  height: 50px !important;
+  width: 100% !important;
   background-color: transparent !important;
-  border-radius:0px !important;
-  border-left:0px !important
+  border-radius: 0px !important;
+  border-right: 0px !important;
+  color:#fff !important;
 }
-.toggle{
-    height: 58px;
-    width: 60px;
-    background: #fff;
-    top: 24px;
-    position: fixed;
-    z-index: 100;
-    left: 24px;
-    cursor: pointer;
-    box-shadow: 0px 0px 20px #0000001A;
+.contactTextArea {
+  border:0px !important;
+  border-bottom: 1px solid #cfcfcf !important;
+  padding: 5px !important;
+  height: 150px !important;
+  width: 100% !important;
+  background-color: transparent !important;
+  border-radius: 0px !important;
+  border-right: 0px !important;
+  color:#fff !important;
 }
-.socialIconsHeader{
-  height:25px;
-}
-.marginlr--15{
-  margin-right:-15px !important;
-  margin-left:-15px !important;
-}
- /* cursor  */
 
+.footerArrowButton {
+  border: 1px solid #000000 !important;
+  padding: 10px 15px !important;
+  height: 50px !important;
+  background-color: transparent !important;
+  border-radius: 0px !important;
+  border-left: 0px !important
+}
 
+.toggle {
+  height: 58px;
+  width: 60px;
+  background: #fff;
+  top: 24px;
+  position: fixed;
+  z-index: 100;
+  left: 24px;
+  cursor: pointer;
+  box-shadow: 0px 0px 20px #0000001A;
+}
+
+.socialIconsHeader {
+  height: 25px;
+}
+
+.marginlr--15 {
+  margin-right: -15px !important;
+  margin-left: -15px !important;
+}
+
+/* cursor  */
 
 .cursor {
   position: fixed;
@@ -785,54 +828,103 @@ a:focus {
   background: #FFD500;
 }
 
-.aboutText1{
+.aboutText1 {
   font-size: 60px;
-    margin-top: 10%;
+  margin-top: 10%;
 }
-.aboutTitle{
-  font-size:70px;
+
+.aboutTitle {
+  font-size: 70px;
 }
-.logoMarginTop{
-  margin-top:35px;
+
+.logoMarginTop {
+  padding-top: 35px;
 }
-.aboutServices{
-  width:20%;
-  padding-left:10px;
-  padding-right:10px;
+
+.aboutServices {
+  width: 20%;
+  padding-left: 10px;
+  padding-right: 10px;
 }
-.mt--15{
-  margin-top:-15px;
+
+.mt--15 {
+  margin-top: -15px;
 }
-.helloThere{
+
+.helloThere {
   margin-top: -110px;
-    margin-bottom: -110px;
-    width:85%;
+  margin-bottom: -110px;
+  width: 85%;
 }
-.webServices{
+
+.webServices {
   cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto;
 }
-.mobileServices{
+
+.mobileServices {
   cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto;
 }
-.logoServices{
+
+.logoServices {
   cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto;
 }
-.motionServices{
+
+.motionServices {
   cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto;
 }
-.graphicServices{
+
+.graphicServices {
   cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto;
 }
-.workExpMargin{
+
+.workExpMargin {
   margin-left: -30px;
 }
-.displineBg{
+
+.displineBg {
   background-image: url('../public-images/disciplines.svg');
   background-position: 75% 70%;
-    background-size: 75%;
-    background-repeat: no-repeat;
+  background-size: 75%;
+  background-repeat: no-repeat;
 }
-.socialMenu{
+
+.socialMenu {
   background: transparent !important;
-    border: none !important;
+  border: none !important;
+}
+
+.rotateTabs a {
+  transform: rotate(270deg);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  font-size: 16px;
+  color:#fff !important;
+  justify-content: center;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background: linear-gradient(transparent 75%, #FFD500 25%) !important;
+    background-color: transparent !important;
+    padding: 3px 0 !important;
+    border-radius: 0 !important;
+    font-size: 16px;
+    font-weight: bold;
+    width: 85%;
+}
+.darkBg{
+  background-color: #222222 !important;
+}
+.contactText{
+  font-size: 70px;
+  padding:150px 0px;
+}
+.btn-secondary:not(:disabled):not(.disabled).active:focus, .btn-secondary:not(:disabled):not(.disabled):active:focus, .show>.btn-secondary.dropdown-toggle:focus{
+  box-shadow: none !important;
+}
+.logoProjects{
+  height:150px;
+}
+.bannerProjects{
+  width:75%;
 }
